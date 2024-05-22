@@ -26,6 +26,12 @@ img {
   height: auto;
 }
 
+/* OUTLINE-STYLES */
+*:focus {
+  outline: 2px dashed #7296ec;
+  outline-offset: 3px;
+}
+
 /* Button  */
 .button{
   display: inline-block;
@@ -62,8 +68,6 @@ img {
   margin-right: auto;
 }
 /* site-header  */
-.site-header {
-}
 .site-header-top {
   padding-top: 30px;
   padding-bottom: 30px;
@@ -103,6 +107,23 @@ img {
   color: #2959CE;
 }
 
+/* global search */
+.global-search-form {
+  margin-right: 25px;
+}
+
+.global-search-form-input {
+  padding-top: 15px;
+  padding-bottom: 13px;
+  padding-left: 40px;
+  padding-right: 20px;
+  border: 0;
+  border-radius: 60px;
+  font-size: 14px;
+  line-height: normal;
+}
+
+
 
 /* LANG TOGGLE */
 .lang-toggle {
@@ -126,8 +147,4 @@ img {
 .lang-toggle-link-active {
   background-color: #fff;
   color: #000;
-}
-.button {
-}
-.button-primary {
 }

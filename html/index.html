@@ -12,8 +12,8 @@
   <link href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
 
   <!-- styles -->
-  <link rel="stylesheet" href="css/normalize.css">
-  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="../css/normalize.css">
+  <link rel="stylesheet" href="../css/style.css">
 </head>
 <body>
 
@@ -23,7 +23,7 @@
   <div class="site-header-top">
     <div class="site-header-top-container container">
       <a class="site-header-logo" href="index.html">
-        <img class="site-header-logo-img" src="img/logo.svg" alt="N24 logo" width="264" height="28">
+        <img class="site-header-logo-img" src="../img/logo.svg" alt="N24 logo" width="264" height="28">
       </a>
 <!-- currency-rates -->
       <ul class="currency-rates">
@@ -38,11 +38,15 @@
       </ul>
 
       <!-- SEARCH-FORM  -->
+      <form class="global-search-form" action="https://echo.htmlacademy.ru" method="get">
+        <input class="global-search-form-input" type="search" name="search" placeholder="search" aria-label="search" required>
+      </form>
+
 
       <!-- LANGUAGE-TOGGLE -->
       <div class="lang-toggle">
-        <a class="lang-toggle-link lang-toggle-link-active " href="index.html">UZ</a>
-        <a class="lang-toggle-link" href="index.html">RU</a>
+        <a class="lang-toggle-link lang-toggle-link-active " href="/html/index.html">UZ</a>
+        <a class="lang-toggle-link" href="/html/index.html">RU</a>
       </div>
 
       <!-- SITE-HEADER-AUTH -->
@@ -50,6 +54,8 @@
     </div>
   </div>
   </header>
+
+
 
 
 
